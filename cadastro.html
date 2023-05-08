@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<hmtl>
+    <head>
+        <title>Login</title>
+        <link rel="icon" href="imagens/icone.png">
+        <link rel="stylesheet" href="css/login.css">
+        <script src="javascript/mostra.js"></script>
+    </head>
+    <body background="imagens/background.png">
+        <div class="tela-login">
+            <h1>CADASTRO</h1>
+            <div>
+                <p><br><br>Nome</p>
+                <input type="text" name="Nome" size="50" class="campo" placeholder="Lucas Pedro Cirico" required>
+            </div>
+            <div>
+                <p><br><br>E-mail</p>
+                <input type="text" name="E-mail" size="50" class="campo" placeholder="joaopcirico@gmail.com" required>
+            </div>
+            <div>
+                <p><br><br>Senha</p>
+                <input type="password" name="Senha" size="50" class="campo" placeholder="joaopedrocirico123" id="input" required>
+                <br><br>
+                <input type="checkbox" onclick="Mostra()">Mostrar senha
+            </div>
+            <div>
+                <p><br><br>Confirme a senha</p>
+                <input type="password" name="Senha" size="50" class="campo" placeholder="joaopedrocirico123" id="input2" required>
+                <br><br>
+                <input type="checkbox" onclick="Mostra2()">Mostrar senha
+            </div>
+            <table>
+                <tr>
+                    <a href="login.html" class="link"><button class="botao">Login</button></a>
+                    <a href="pronto.html" class="link"><button class="botao">Concluir</button></a>
+                </tr>
+                <br>
+                <div class="voltar-tr">
+                    <tr>
+                        <a href="index.html" class="link" class="voltar">Voltar ao site</a>
+                    </tr>
+                </div>
+            </table>
+        </div>
+    </body>
+</hmtl>
